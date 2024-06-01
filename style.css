@@ -1,0 +1,26 @@
+body {
+    background-color: hsl(30, 54%, 90%);
+    margin: 0%;
+    padding: 0%;
+}
+
+.outer-box{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 10px;
+    margin: 150px 300px;
+}
+
+.inner-box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto 250px;
+}
+
+img {
+    height: auto;
+    width: 650px;
+}
