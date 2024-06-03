@@ -1,26 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: hsl(30, 54%, 90%);
     margin: 0%;
     padding: 0%;
 }
 
+section{
+    padding-top: 10vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
 .outer-box{
-    text-align: center;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     background-color: white;
     padding: 10px;
-    margin: 150px 300px;
+    min-width: fit-content;
+    margin: 0 10rem;
+    border-radius: 2rem;
 }
 
 .inner-box{
     display: flex;
     justify-content: center;
+    gap: 1rem;
     flex-direction: column;
-    margin: auto 250px;
+    padding: 2rem 3rem;
+
 }
 
-img {
-    height: auto;
-    width: 650px;
+
+
+#image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
 }
