@@ -7,6 +7,7 @@ body {
     background-color: hsl(30, 54%, 90%);
     margin: 0%;
     padding: 0%;
+    font-size: 16px;
 }
 
 section{
@@ -35,8 +36,6 @@ section{
     padding: 2rem 3rem;
 
 }
-
-
 
 #image img{
     height: 100%;
