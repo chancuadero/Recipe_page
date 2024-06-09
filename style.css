@@ -20,6 +20,7 @@ section{
     margin: 0 20rem;
     box-sizing: border-box;
     min-height: fit-content;
+    margin-bottom: 4rem;
 }
 
 .outer-box{
@@ -53,13 +54,35 @@ section{
 .text h1{
     padding-bottom: 2rem;
     font-family: "Young Serif", serif;
-    font-size: 37px;
+    font-size: 3rem;
 }
+
 
 .text p{
     padding-bottom: 2rem;
     font-family: "Outfit", sans-serif;
-    color: hsl(24, 5%, 18%);
+    color: hsl(24, 5%, 18%, 0.8);
+}
+
+.text h2{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+    color: hsl(24, 5%, 18%, 0.8);
+}
+
+ .text ul{
+    padding-bottom: 2rem;
+    font-family: "Outfit", sans-serif;
+    color: hsl(24, 5%, 18%, 0.8);
+    margin-left: 2rem;
+}
+
+.text ol{
+    padding-bottom: 2rem;
+    font-family: "Outfit", sans-serif;
+    color: hsl(24, 5%, 18%, 0.8);
+    margin-left: 2rem;
 }
 
 .text__prep h2, li{
@@ -73,16 +96,43 @@ section{
 }
 
 .text__prep h2{
-    color:   hsl(332, 51%, 32%);
+    color:   hsl(332, 51%, 32%, 0.8);
 }
 
 .text__prep li {
     margin-left: 2rem;
+     color: hsl(24, 5%, 18%, 0.8);
 }
 .text__prep ul li::marker {
     margin-left: 2rem;
 }
 
-.text__prep span{
+.text__prep span, .text span{
     font-weight: bold;
 }
+
+hr {
+    display: block;
+    height: 0.3rem;
+    border: 0;
+    border-top: 1px solid #ccc;
+}
+.item {
+    width: 100%;
+    border-bottom: 0.2px solid hsl(24, 5%, 18%, 0.4);
+  }
+  
+  .nutrition_list{
+    display: flex;
+    flex-wrap: wrap;
+      color: hsl(24, 5%, 18%, 0.8);
+      font-family: "Outfit", sans-serif;
+  }
+  
+  .nutrition_list > div {
+    flex: 50%;
+    margin-bottom: 10px;
+
+    padding-top: 0.5rem;
+    padding-bottom: 0.7rem;
+  }
